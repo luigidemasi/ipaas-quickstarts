@@ -21,12 +21,12 @@
   <parent>
     <groupId>org.sonatype.oss</groupId>
     <artifactId>oss-parent</artifactId>
-    <version>9</version>
+    <version>9.0.0.redhat-2</version>
   </parent>
 
   <groupId>io.fabric8.quickstarts</groupId>
   <artifactId>ipaas-quickstarts</artifactId>
-  <version>2.2.0.fuse-sb2-780040</version>
+  <version>2.2.0.fuse-sb2-780040-redhat-00001</version>
   <packaging>pom</packaging>
 
   <name>Fabric8 Quickstarts</name>
@@ -85,34 +85,34 @@
     <exec-maven-plugin.version>1.4.0</exec-maven-plugin.version>
     <maven.surefire.plugin.version>2.19.1</maven.surefire.plugin.version>
     <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
-    <junit.version>4.12</junit.version>
-    <fuse.bom.version>7.8.0.fuse-sb2-780038</fuse.bom.version>
+    <junit.version>4.12.0.redhat-003</junit.version>
+    <fuse.bom.version>7.8.0.fuse-sb2-780038-redhat-00001</fuse.bom.version>
 
     <quickstarts.url.base>https://github.com/fabric8-quickstarts</quickstarts.url.base>
-    <spring-boot-camel.version>7.8.0.fuse-sb2-780031</spring-boot-camel.version>
-    <spring-boot-camel-amq.version>7.8.0.fuse-sb2-780030</spring-boot-camel-amq.version>
-    <spring-boot-camel-config.version>7.8.0.fuse-sb2-780029</spring-boot-camel-config.version>
-    <spring-boot-camel-drools.version>7.8.0.fuse-sb2-780043</spring-boot-camel-drools.version>
-    <spring-boot-camel-infinispan.version>7.8.0.fuse-sb2-780030</spring-boot-camel-infinispan.version>
-    <spring-boot-camel-rest-sql.version>7.8.0.fuse-sb2-780043</spring-boot-camel-rest-sql.version>
-    <spring-boot-camel-rest-3scale.version>7.8.0.fuse-sb2-780043</spring-boot-camel-rest-3scale.version>
-    <spring-boot-camel-xml.version>7.8.0.fuse-sb2-780041</spring-boot-camel-xml.version>
-    <spring-boot-camel-soap-rest-bridge.version>7.8.0.fuse-sb2-780028</spring-boot-camel-soap-rest-bridge.version>
-    <spring-boot-cxf-jaxrs.version>7.8.0.fuse-sb2-780028</spring-boot-cxf-jaxrs.version>
-    <spring-boot-cxf-jaxws.version>7.8.0.fuse-sb2-780028</spring-boot-cxf-jaxws.version>
-    <spring-boot-cxf-jaxrs-xml.version>7.8.0.fuse-sb2-780028</spring-boot-cxf-jaxrs-xml.version>
-    <spring-boot-cxf-jaxws-xml.version>7.8.0.fuse-sb2-780028</spring-boot-cxf-jaxws-xml.version>
+    <spring-boot-camel.version>7.8.0.fuse-sb2-780031-redhat-00001</spring-boot-camel.version>
+    <spring-boot-camel-amq.version>7.8.0.fuse-sb2-780030-redhat-00001</spring-boot-camel-amq.version>
+    <spring-boot-camel-config.version>7.8.0.fuse-sb2-780029-redhat-00001</spring-boot-camel-config.version>
+    <spring-boot-camel-drools.version>7.8.0.fuse-sb2-780043-redhat-00001</spring-boot-camel-drools.version>
+    <spring-boot-camel-infinispan.version>7.8.0.fuse-sb2-780030-redhat-00001</spring-boot-camel-infinispan.version>
+    <spring-boot-camel-rest-sql.version>7.8.0.fuse-sb2-780043-redhat-00001</spring-boot-camel-rest-sql.version>
+    <spring-boot-camel-rest-3scale.version>7.8.0.fuse-sb2-780043-redhat-00001</spring-boot-camel-rest-3scale.version>
+    <spring-boot-camel-xml.version>7.8.0.fuse-sb2-780041-redhat-00001</spring-boot-camel-xml.version>
+    <spring-boot-camel-soap-rest-bridge.version>7.8.0.fuse-sb2-780028-redhat-00001</spring-boot-camel-soap-rest-bridge.version>
+    <spring-boot-cxf-jaxrs.version>7.8.0.fuse-sb2-780028-redhat-00001</spring-boot-cxf-jaxrs.version>
+    <spring-boot-cxf-jaxws.version>7.8.0.fuse-sb2-780028-redhat-00001</spring-boot-cxf-jaxws.version>
+    <spring-boot-cxf-jaxrs-xml.version>7.8.0.fuse-sb2-780028-redhat-00001</spring-boot-cxf-jaxrs-xml.version>
+    <spring-boot-cxf-jaxws-xml.version>7.8.0.fuse-sb2-780028-redhat-00001</spring-boot-cxf-jaxws-xml.version>
 
-    <karaf-camel-amq.version>7.8.0.fuse-sb2-780030</karaf-camel-amq.version>
-    <karaf-camel-log.version>7.8.0.fuse-sb2-780030</karaf-camel-log.version>
-    <karaf-camel-rest-sql.version>7.8.0.fuse-sb2-780030</karaf-camel-rest-sql.version>
-    <karaf-cxf-rest.version>7.8.0.fuse-sb2-780035</karaf-cxf-rest.version>
+    <karaf-camel-amq.version>7.8.0.fuse-sb2-780030-redhat-00001</karaf-camel-amq.version>
+    <karaf-camel-log.version>7.8.0.fuse-sb2-780030-redhat-00001</karaf-camel-log.version>
+    <karaf-camel-rest-sql.version>7.8.0.fuse-sb2-780030-redhat-00001</karaf-camel-rest-sql.version>
+    <karaf-cxf-rest.version>7.8.0.fuse-sb2-780035-redhat-00001</karaf-cxf-rest.version>
 
     <maven.enforcer.plugin.version>1.4.1</maven.enforcer.plugin.version>
 
     <!-- build with -Dquickstart.git.repos=path/to/repos.properties to configure a list of repos
          to clone instead of using the discovered the github repos. -->
-    <quickstart.git.repos/>
+    <quickstart.git.repos />
     <quickstart.git.version>master</quickstart.git.version>
 
   </properties>
@@ -138,30 +138,10 @@
   </distributionManagement>
 
   <repositories>
-    <repository>
-      <id>oss-sonatype-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-      <name>OSS Sonatype Nexus Snapshots</name>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
+    
   </repositories>
   <pluginRepositories>
-    <pluginRepository>
-      <id>oss-sonatype-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-      <name>OSS Sonatype Nexus Snapshots</name>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
+    
   </pluginRepositories>
 
   <build>
@@ -292,13 +272,6 @@
 
       <dependency>
         <groupId>io.fabric8.quickstarts</groupId>
-        <artifactId>karaf-camel-log</artifactId>
-        <version>${karaf-camel-log.version}</version>
-        <scope>test</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.fabric8.quickstarts</groupId>
         <artifactId>karaf-camel-rest-sql</artifactId>
         <version>${karaf-camel-rest-sql.version}</version>
         <scope>test</scope>
@@ -311,7 +284,7 @@
         <scope>test</scope>
       </dependency>
 
-     <dependency>
+      <dependency>
         <groupId>io.fabric8.quickstarts</groupId>
         <artifactId>spring-boot-camel</artifactId>
         <version>${spring-boot-camel.version}</version>
@@ -367,14 +340,14 @@
         <scope>test</scope>
       </dependency>
 
-      <dependency>
+     <dependency>
         <groupId>io.fabric8.quickstarts</groupId>
         <artifactId>spring-boot-camel-soap-rest-bridge</artifactId>
         <version>${spring-boot-camel-soap-rest-bridge.version}</version>
         <scope>test</scope>
       </dependency>
 
-     <dependency>
+      <dependency>
         <groupId>io.fabric8.quickstarts.cxf.jaxrs</groupId>
         <artifactId>spring-boot-cxf-jaxrs</artifactId>
         <version>${spring-boot-cxf-jaxrs.version}</version>
@@ -401,6 +374,8 @@
         <version>${spring-boot-cxf-jaxws-xml.version}</version>
         <scope>test</scope>
       </dependency>
+
+     
 
 
     </dependencies>
@@ -464,3 +439,6 @@
   </profiles>
 
 </project>
+<!--
+Modified by POM Manipulation Extension for Maven 4.1 ( SHA: 2574c551 )
+-->
