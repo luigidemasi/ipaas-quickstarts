@@ -98,10 +98,10 @@
     <spring-boot-camel-rest-3scale.version>7.8.0.fuse-sb2-780043-redhat-00001</spring-boot-camel-rest-3scale.version>
     <spring-boot-camel-xml.version>7.8.0.fuse-sb2-780041-redhat-00001</spring-boot-camel-xml.version>
     <spring-boot-camel-soap-rest-bridge.version>7.8.0.fuse-sb2-780028-redhat-00002</spring-boot-camel-soap-rest-bridge.version>
-    <spring-boot-cxf-jaxrs.version>7.8.0.fuse-sb2-780028-redhat-00002</spring-boot-cxf-jaxrs.version>
-    <spring-boot-cxf-jaxws.version>7.8.0.fuse-sb2-780028-redhat-00002</spring-boot-cxf-jaxws.version>
-    <spring-boot-cxf-jaxrs-xml.version>7.8.0.fuse-sb2-780028-redhat-00001</spring-boot-cxf-jaxrs-xml.version>
-    <spring-boot-cxf-jaxws-xml.version>7.8.0.fuse-sb2-780028-redhat-00001</spring-boot-cxf-jaxws-xml.version>
+    <spring-boot-cxf-jaxrs.version>7.8.0.fuse-sb2-780028-redhat-00001</spring-boot-cxf-jaxrs.version>
+    <spring-boot-cxf-jaxws.version>7.8.0.fuse-sb2-780028-redhat-00001</spring-boot-cxf-jaxws.version>
+    <spring-boot-cxf-jaxrs-xml.version>7.8.0.fuse-sb2-780028-redhat-00002</spring-boot-cxf-jaxrs-xml.version>
+    <spring-boot-cxf-jaxws-xml.version>7.8.0.fuse-sb2-780028-redhat-00002</spring-boot-cxf-jaxws-xml.version>
 
     <karaf-camel-amq.version>7.8.0.fuse-sb2-780030-redhat-00002</karaf-camel-amq.version>
     <karaf-camel-log.version>7.8.0.fuse-sb2-780030-redhat-00002</karaf-camel-log.version>
