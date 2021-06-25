@@ -26,10 +26,10 @@
     </parent>
 
     <artifactId>karaf-camel-rhosak-archetype</artifactId>
-    <name>Fabric8 :: Archetypes :: Karaf :: Camel Rhosak</name>
+    <name>Fabric8 :: Archetypes :: Karaf :: Camel RHOSAK</name>
     <packaging>maven-archetype</packaging>
 
-    <description>Creates a new Karaf 4 Blueprint Camel rhosak example</description>
+    <description>Creates a new Karaf 4 Blueprint Camel RHOSAK example</description>
 
     <build>
         <extensions>
