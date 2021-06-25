@@ -94,6 +94,7 @@
     <spring-boot-camel-config.version>7.8.0.fuse-sb2-780002</spring-boot-camel-config.version>
     <spring-boot-camel-drools.version>7.8.0.fuse-sb2-780003</spring-boot-camel-drools.version>
     <spring-boot-camel-infinispan.version>7.8.0.fuse-sb2-780003</spring-boot-camel-infinispan.version>
+    <spring-boot-camel-rhosak.version>7.8.0.fuse-sb2-780002</spring-boot-camel-rhosak.version>
     <spring-boot-camel-rest-sql.version>7.8.0.fuse-sb2-780003</spring-boot-camel-rest-sql.version>
     <spring-boot-camel-rest-3scale.version>7.8.0.fuse-sb2-780003</spring-boot-camel-rest-3scale.version>
     <spring-boot-camel-xml.version>7.8.0.fuse-sb2-780001</spring-boot-camel-xml.version>
@@ -105,6 +106,7 @@
 
     <karaf-camel-amq.version>7.8.0.fuse-sb2-780011-redhat-00001</karaf-camel-amq.version>
     <karaf-camel-log.version>7.8.0.fuse-sb2-780011-redhat-00001</karaf-camel-log.version>
+    <karaf-camel-rhosak.version>7.8.0.fuse-sb2-780011-redhat-00001</karaf-camel-rhosak.version>
     <karaf-camel-rest-sql.version>7.8.0.fuse-sb2-780011-redhat-00001</karaf-camel-rest-sql.version>
     <karaf-cxf-rest.version>7.8.0.fuse-sb2-780011-redhat-00001</karaf-cxf-rest.version>
 
@@ -292,8 +294,8 @@
 
       <dependency>
         <groupId>io.fabric8.quickstarts</groupId>
-        <artifactId>karaf-camel-log</artifactId>
-        <version>${karaf-camel-log.version}</version>
+        <artifactId>karaf-camel-rhosak</artifactId>
+        <version>${karaf-camel-rhosak.version}</version>
         <scope>test</scope>
       </dependency>
 
@@ -315,6 +317,13 @@
         <groupId>io.fabric8.quickstarts</groupId>
         <artifactId>spring-boot-camel</artifactId>
         <version>${spring-boot-camel.version}</version>
+        <scope>test</scope>
+      </dependency>
+
+     <dependency>
+        <groupId>io.fabric8.quickstarts</groupId>
+        <artifactId>spring-boot-camel-rhosak</artifactId>
+        <version>${spring-boot-camel-rhosak.version}</version>
         <scope>test</scope>
       </dependency>
 
