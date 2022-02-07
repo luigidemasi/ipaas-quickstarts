@@ -26,7 +26,7 @@
 
   <groupId>io.fabric8.quickstarts</groupId>
   <artifactId>ipaas-quickstarts</artifactId>
-  <version>2.2-SNAPSHOT</version>
+  <version>2.2.0.fuse-sb2-7_11_0-00004</version>
   <packaging>pom</packaging>
 
   <name>Fabric8 Quickstarts</name>
@@ -86,29 +86,29 @@
     <maven.surefire.plugin.version>2.19.1</maven.surefire.plugin.version>
     <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
     <junit.version>4.12</junit.version>
-    <fuse.bom.version>7.9.0.fuse-sb2-790060</fuse.bom.version>
+    <fuse.bom.version>7.11.0.fuse-sb2-7_11_0-00006</fuse.bom.version>
 
     <quickstarts.url.base>https://github.com/fabric8-quickstarts</quickstarts.url.base>
-    <spring-boot-camel.version>7.9.0.fuse-sb2-790043</spring-boot-camel.version>
-    <spring-boot-camel-amq.version>7.9.0.fuse-sb2-790043</spring-boot-camel-amq.version>
-    <spring-boot-camel-config.version>7.9.0.fuse-sb2-790043</spring-boot-camel-config.version>
-    <spring-boot-camel-drools.version>7.9.0.fuse-sb2-790043</spring-boot-camel-drools.version>
-    <spring-boot-camel-infinispan.version>7.9.0.fuse-sb2-790043</spring-boot-camel-infinispan.version>
-    <spring-boot-camel-rhosak.version>7.9.0.fuse-sb2-790006</spring-boot-camel-rhosak.version>
-    <spring-boot-camel-rest-sql.version>7.9.0.fuse-sb2-790043</spring-boot-camel-rest-sql.version>
-    <spring-boot-camel-rest-3scale.version>7.9.0.fuse-sb2-790044</spring-boot-camel-rest-3scale.version>
-    <spring-boot-camel-xml.version>7.9.0.fuse-sb2-790042</spring-boot-camel-xml.version>
-    <spring-boot-camel-soap-rest-bridge.version>7.9.0.fuse-sb2-790043</spring-boot-camel-soap-rest-bridge.version>
-    <spring-boot-cxf-jaxrs.version>7.9.0.fuse-sb2-790042</spring-boot-cxf-jaxrs.version>
-    <spring-boot-cxf-jaxws.version>7.9.0.fuse-sb2-790042</spring-boot-cxf-jaxws.version>
-    <spring-boot-cxf-jaxrs-xml.version>7.9.0.fuse-sb2-790041</spring-boot-cxf-jaxrs-xml.version>
-    <spring-boot-cxf-jaxws-xml.version>7.9.0.fuse-sb2-790041</spring-boot-cxf-jaxws-xml.version>
+    <spring-boot-camel.version>7.11.0.fuse-sb2-7_11_0-00005</spring-boot-camel.version>
+    <spring-boot-camel-amq.version>7.11.0.fuse-sb2-7_11_0-00005</spring-boot-camel-amq.version>
+    <spring-boot-camel-config.version>7.11.0.fuse-sb2-7_11_0-00005</spring-boot-camel-config.version>
+    <spring-boot-camel-drools.version>7.11.0.fuse-sb2-7_11_0-00005</spring-boot-camel-drools.version>
+    <spring-boot-camel-infinispan.version>7.11.0.fuse-sb2-7_11_0-00005</spring-boot-camel-infinispan.version>
+    <spring-boot-camel-rhosak.version>7.11.0.fuse-sb2-7_11_0-00005</spring-boot-camel-rhosak.version>
+    <spring-boot-camel-rest-sql.version>7.11.0.fuse-sb2-7_11_0-00005</spring-boot-camel-rest-sql.version>
+    <spring-boot-camel-rest-3scale.version>7.11.0.fuse-sb2-7_11_0-00005</spring-boot-camel-rest-3scale.version>
+    <spring-boot-camel-xml.version>7.11.0.fuse-sb2-7_11_0-00004</spring-boot-camel-xml.version>
+    <spring-boot-camel-soap-rest-bridge.version>7.11.0.fuse-sb2-7_11_0-00004</spring-boot-camel-soap-rest-bridge.version>
+    <spring-boot-cxf-jaxrs.version>7.11.0.fuse-sb2-7_11_0-00004</spring-boot-cxf-jaxrs.version>
+    <spring-boot-cxf-jaxws.version>7.11.0.fuse-sb2-7_11_0-00004</spring-boot-cxf-jaxws.version>
+    <spring-boot-cxf-jaxrs-xml.version>7.11.0.fuse-sb2-7_11_0-00004</spring-boot-cxf-jaxrs-xml.version>
+    <spring-boot-cxf-jaxws-xml.version>7.11.0.fuse-sb2-7_11_0-00004</spring-boot-cxf-jaxws-xml.version>
 
-    <karaf-camel-amq.version>7.9.0.fuse-sb2-790045</karaf-camel-amq.version>
-    <karaf-camel-log.version>7.9.0.fuse-sb2-790045</karaf-camel-log.version>
-    <karaf-camel-rhosak.version>7.9.0.fuse-sb2-790007</karaf-camel-rhosak.version>
-    <karaf-camel-rest-sql.version>7.9.0.fuse-sb2-790043</karaf-camel-rest-sql.version>
-    <karaf-cxf-rest.version>7.9.0.fuse-sb2-790044</karaf-cxf-rest.version>
+    <karaf-camel-amq.version>7.11.0.fuse-sb2-7_11_0-00006</karaf-camel-amq.version>
+    <karaf-camel-log.version>7.11.0.fuse-sb2-7_11_0-00006</karaf-camel-log.version>
+    <karaf-camel-rhosak.version>7.11.0.fuse-sb2-7_11_0-00005</karaf-camel-rhosak.version>
+    <karaf-camel-rest-sql.version>7.11.0.fuse-sb2-7_11_0-00006</karaf-camel-rest-sql.version>
+    <karaf-cxf-rest.version>7.11.0.fuse-sb2-7_11_0-00005</karaf-cxf-rest.version>
 
     <maven.enforcer.plugin.version>1.4.1</maven.enforcer.plugin.version>
 
