@@ -97,6 +97,7 @@
     <spring-boot-camel-rhosak.version>7.9.0.fuse-sb2-790006</spring-boot-camel-rhosak.version>
     <spring-boot-camel-rest-sql.version>7.9.0.fuse-sb2-790043</spring-boot-camel-rest-sql.version>
     <spring-boot-camel-rest-3scale.version>7.9.0.fuse-sb2-790044</spring-boot-camel-rest-3scale.version>
+    <spring-boot-camel-singleton-services-kubernetes.version>7.11.0.fuse-sb2-7_11_0-00001</spring-boot-camel-singleton-services-kubernetes.version>
     <spring-boot-camel-xml.version>7.9.0.fuse-sb2-790042</spring-boot-camel-xml.version>
     <spring-boot-camel-soap-rest-bridge.version>7.9.0.fuse-sb2-790043</spring-boot-camel-soap-rest-bridge.version>
     <spring-boot-cxf-jaxrs.version>7.9.0.fuse-sb2-790042</spring-boot-cxf-jaxrs.version>
